@@ -48,7 +48,7 @@ Tabby uses a Retrieval-Augmented Generation (RAG) architecture to provide accura
 
 To get Tabby running on your local machine, you'll need to set up both the backend server and the Chrome extension.
 
-### 1. Setting Up the Backend Server
+### 1. Setting Up the Backend Server for running locally
 
 First, let's get the brains of the operation running.
 
@@ -68,7 +68,7 @@ uvicorn main:app --reload
 
 Your AI backend should now be running on `http://127.0.0.1:8000`.
 
-### 2. Installing the Chrome Extension
+### 2. Installing the Chrome Extension (using globally deployed server)
 
 Now, follow these steps precisely to install the extension in your browser.
 
@@ -80,11 +80,7 @@ Now, follow these steps precisely to install the extension in your browser.
 
 4.  **Enable Developer Mode:** In the top-right corner of the Extensions page, find the **Developer mode** toggle and turn it **on**.
 
-    <img src="https://i.imgur.com/g266YAM.png" alt="Enable Developer Mode" width="400" />
-
 5.  **Load the Extension:** You should now see a button that says **Load unpacked**. Click on it.
-
-    <img src="https://i.imgur.com/kP4kGN3.png" alt="Load Unpacked" width="400" />
 
 6.  **Select the Folder:** A file selection window will open. Navigate to and select the `frontend` folder that is inside the `Tabby-main` folder you unzipped earlier.
 
