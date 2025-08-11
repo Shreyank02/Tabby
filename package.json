@@ -1,0 +1,12 @@
+{
+  "name": "rag-chatbot-extension",
+  "version": "1.0.0",
+  "description": "Chrome extension for RAG-based chatbot",
+  "scripts": {
+    "build": "echo 'No build process needed - using CDN React'",
+    "pack": "zip -r extension.zip . -x '*.git*' 'node_modules/*' 'package*.json' '*.md'"
+  },
+  "devDependencies": {
+    "zip-cli": "^0.1.0"
+  }
+}
